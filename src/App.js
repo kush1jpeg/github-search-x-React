@@ -265,7 +265,7 @@ function App() {
             }}>
                 Repositories:
                 {loading ? (
-                    <Spinner animation="border" style={{ width: '1rem', height: '1rem', marginLeft: '8px' }} />
+                    <Spinner animation="border" style={{ width: '1rem', height: '1rem', marginLeft: '8px', backgroundColor:"black" }} />
                 ) : (
                     ` ${repo.length}`
                 )}
@@ -282,7 +282,7 @@ function App() {
             }}>
                 Follower:
                 {loading ? (
-                    <Spinner animation="border" style={{ width: '1rem', height: '1rem', marginLeft: '8px' }} />
+                    <Spinner animation="border" style={{ width: '1rem', height: '1rem', marginLeft: '8px' ,backgroundColor:"black" }} />
                 ) : (
                     ` ${follower.length}`
                 )}
@@ -299,7 +299,7 @@ function App() {
             }}>
                 Following:
                 {loading ? (
-                    <Spinner animation="border" style={{ width: '1rem', height: '1rem', marginLeft: '8px' }} />
+                    <Spinner animation="border" style={{ width: '1rem', height: '1rem', marginLeft: '8px'  ,backgroundColor:"black" }} />
                 ) : (
                     ` ${following.length}`
                 )}
@@ -319,7 +319,7 @@ function App() {
             }}>
                 
                 {loading ? (
-                    <Spinner animation="border" style={{ width: '1rem', height: '1rem', marginLeft: '8px' }} />
+                    <Spinner animation="border" style={{ width: '1rem', height: '1rem', marginLeft: '8px'  ,backgroundColor:"black" }} />
                 ) : (
                     `${prof.bio !== undefined ? ('Bio: '+ prof.bio ): ' No bio bruh'}`
                 )}
