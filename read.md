@@ -18,8 +18,8 @@ A sleek and efficient GitHub user search application built with React. This app 
    ```bash
    git clone https://github.com/kush1jpeg/github-search-x-React.git
    cd github-search-x-React
-  ```
-2. Installl the dependencies-
+    ```
+2. Install the dependencies-
 ```bash
 npm install
 ```
