@@ -23,3 +23,7 @@ A sleek and efficient GitHub user search application built with React. This app 
 ```bash
 npm install
 ```
+3. Run this shitty project...
+```bash
+npm start
+```
